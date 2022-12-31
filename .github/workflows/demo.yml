@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: GH actions
-      run: echo hi gh actions!
+        run: echo hi gh actions!
