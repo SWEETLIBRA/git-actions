@@ -6,3 +6,7 @@ jobs:
     steps: 
       - name: GH actions
         run: echo hi gh actions!
+      - name: GH new line
+        run: |
+          echo first line!
+          echo second line!
