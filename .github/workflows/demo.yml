@@ -3,6 +3,6 @@ on: workflow_dispatch
 jobs: 
   print:
     runs-on: ubuntu-latest
-    - steps: 
-      name: GH actions
+    steps: 
+      - name: GH actions
       run: echo hi gh actions!
